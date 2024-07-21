@@ -1,6 +1,6 @@
 import capitalize from './capitalize'
 
-test('Happy Path', () => {
+test('Happy path', () => {
 	expect(capitalize('jeff')).toBe('Jeff')
 })
 
@@ -8,7 +8,7 @@ test('Already capitalized', () => {
 	expect(capitalize('Mary')).toBe('Mary')
 })
 
-test('One Letter', () => {
+test('One letter', () => {
 	expect(capitalize('c')).toBe('C')
 })
 
